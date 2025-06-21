@@ -3,12 +3,11 @@ import './styles/global.css';
 import { Heading } from './components/Heading';
 
 export function App() {
-  console.log('Oi');
   return (
     <>
-      <Heading>Olá Mundo 1</Heading>
-      <Heading>Olá Mundo 2</Heading>
-      <Heading>Olá Mundo 3</Heading>
+      <Heading attr1={123} attr2='String'>
+        Olá Mundo 1
+      </Heading>
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
         explicabo ducimus alias iste nam praesentium tempora dignissimos quia
