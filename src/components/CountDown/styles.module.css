@@ -3,3 +3,9 @@
   font-weight: bold;
   text-align: center;
 }
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
